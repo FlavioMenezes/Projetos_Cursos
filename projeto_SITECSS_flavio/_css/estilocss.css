@@ -1,0 +1,276 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web); 
+@import url(http://fonts.googleapis.com/css?family=Aclonica);
+	
+	body {
+		background-color> white;		
+		color: rgba(0, 0, 0, 1);
+		}   
+		
+	p {
+		text-align: justify;
+		text-indent: 50px;
+	}	
+	div#interface{
+		width: 1240px;
+		margin: -20px auto 0px auto;
+		box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+		padding: 10px;	
+	}
+	
+	header#cabecalho{
+	border-bottom: 2px solid;
+	height: 140px;
+	background: url("../_imagens/flavio-pequeno.png") no-repeat 0px 50px;
+	}
+	
+	header#cabecalho h1{
+	font-family: 'Aclonica', sans-serif;
+	font-size: 20pt;
+	padding: 0px;
+	}
+	
+	header#cabecalho h2{
+	font-family: 'Titillium Web', sans-serif;
+	color: #336666;
+	font-size: 20pt;
+	padding: 0px;
+	margin-top: 0px;
+}	
+	header#cabecalho #icone{
+	position: absolute;
+	left: 950px;
+	top: 35px;	
+	}
+
+	
+/*  IMAGEM */ 	
+	figute.imagem-et{
+		position: relative;
+		border: 1px solid;
+		box-shadow: 1px 1px 4px black;
+	}
+	figure.ucb{
+		position: absolute;
+		left: 370px;
+		top: 270px;
+	}
+	figure.tafa{
+		position: absolute;
+		left: 370px;
+		top: 400px;
+	}
+	figure.emb{
+		position: absolute;
+		left: 280px;
+		top: 600px;
+	}	
+	figure.exercito{
+		position: absolute;
+		left: 370px;
+		top: 720px;
+	}	
+	figure.mma{
+		position: absolute;
+		left: 370px;
+		top: 880px;
+	}
+	
+	figure.rz{
+		position: absolute;
+		left: 900px;
+		top: 220px;
+	}
+	figure.unb{
+		position: absolute;
+		left: 900px;
+		top: 400px;
+	}
+	figure.etb{
+		position: absolute;
+		left: 1000px;
+		top: 600px;
+	}	
+	figure.sangue{
+		position: absolute;
+		left: 1000px;
+		top: 850px;
+	}
+	figure.history{
+		left: 500px;
+	}
+	
+	
+	
+	
+	
+	
+	figure.separador{
+		position: absolute;
+		top: 350px;
+		left: 20px;
+	}
+	figure.separador2{
+		position: absolute;
+		top: 700;
+		left: 20px;
+	}
+	figure.separador3{
+		position: absolute;
+		top: 1050;
+		left: 20px;
+	}
+	figure.separador4{
+		position: absolute;
+		top: 1400;
+		left: 20px;
+	}
+	figure.separador5{
+		position: absolute;
+		top: 1750;
+		left: 20px;
+	}
+	
+	
+	
+
+/* Formatação Menu */
+	nav#menu {
+		display: block;
+	}
+	
+	nav#menu ul{
+		list-style: none;
+		text-transform: uppercase;
+		position: absolute;
+		top: -10px;
+		left: 600px;
+	}
+	
+	nav#menu li{
+		display: inline-block;
+		background-color: #dddddd;
+		padding: 15px;
+		margin: 1px;
+		transition: background-color 1s;	
+	}
+	
+	nav#menu li:hover{
+		background-color: #499cf1;
+	}
+	
+	nav#menu h1{
+		display: none;
+	}	
+	
+	nav#menu a{
+		color: #000000;
+		text-decoration: none;
+	}
+	
+	nav#menu a:hover{
+		color: #ffffff;
+		text-decoration: underline;
+	}
+	
+	section#corpo {
+		display: block;
+		width: 580px;
+		float: left;
+		border-right: 2px solid #606060;
+		padding-right: 15px;
+	}
+	
+	aside#lateral {
+		display: block;
+		width: 620px;
+		float: left;
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+						
+	table#tabela {
+		border: 1px solid #606060;
+		border-spacing: 1px;
+		margin-left: auto ;
+		margin-right: auto;
+	}
+	
+	table#tabela td{
+		border: 1px solid #606060;
+		
+	}
+	
+	footer#rodape {
+		clear: both;
+		border-top: 2px solid #606060;
+	}
+	footer#rodape p{
+		text-align: center;
+	}
+	footer#rodape a{
+		color: blue;
+		text-decoration: none;
+	}
+	
+	/* Formatação GALERIA IMAGENS */
+	figure.imagem1{
+		position: absolute;
+		left: 40px;
+		top: 470px;	
+		
+	}
+	figure.imagem2{
+		position: absolute;
+		left: 610px;
+		top: 920px;		
+	}
+	figure.imagem3{
+		position: absolute;
+		left: 280px;
+		top: 920px;			
+	}
+	figure.imagem4{
+		position: absolute;
+		left: 80px;
+		top: 300px;		
+	}figure.imagem5{
+		position: absolute;
+		left: 1059px;
+		top: 300px;			
+	}
+	figure.imagem9{
+		position: absolute;
+		left: 40px;
+		top: 650px;			
+	}figure.imagem10{
+		position: absolute;
+		left: 40px;
+		top: 910px;
+		
+	}
+	figure.imagem11{
+		position: absolute;
+		left: 1059px;
+		top: 530px;		
+	}figure.imagem12{
+		position: absolute;
+		left: 1030px;
+		top: 1000px;
+		
+	}
+	figure.imagem13{
+		position: absolute;
+		left: 400px;
+		top: 1250px;
+	}
+	figure.imagem14{
+		position: absolute;
+		left: 1059px;
+		top: 750px;
+		
+	}figure.imagem15{
+		position: absolute;
+		left: 250px;
+		top: 300px;
+	}

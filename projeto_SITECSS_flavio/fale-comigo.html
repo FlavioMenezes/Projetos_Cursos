@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="_css/estilocss.css"/>
+</head>
+
+<body>
+<div id="interface">
+
+	<header id="cabecalho">
+	<hgroup>
+	<h1>O Site que todos esperavam!</h1>
+	
+	<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A revolução do mundo está chegando...</h2>
+	</hgroup>
+
+	
+<nav id="menu">
+		<h1> Menu Principal</h1>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="quem-sou.html">Quem sou</a></li>
+			<li><a href="curriculo.html">Curriculo</a></li>
+			<li><a href="multimidia.html">Multimidia</a></li>
+			<li><a href="fale-comigo.html">Fale comigo</a></li>
+		</ul>
+</nav>	
+	</header>	
+
+
+
+	
+</figure>	
+	<h1>FALE COMIGO</h1>
+	
+	
+	
+	<form action="pagina.php" method="get">	
+		<!-- ACTION=é para onde os dados do formualário irão
+		METHOD= Metodo de envio de dados-->
+		Nome: <input type="text" size="100" name="nome"><br><br>
+		Idade: <input type="text" size="4" maxlength="3" name="idade"><br><br>
+		E-mail: <input type="text" size="100" maxlength="100" name="email"><br><br>
+		Confirme o E-mail: <input type="text" size="100" maxlength="100" name="cemail"><br><br>						
+		<!-- O Name via gerar uma identificação para o recebimento
+		O value é para identificação do que o NAME irá receber-->
+		<p><b> Sexo:</b> <br>      
+		<input type="radio" name="sexo" value="M"> Masculino
+		<input type="radio" name="sexo" value="F"> Feminino
+		<input type="radio" name="sexo" value="D"> Estou em Dúvida
+		</p>
+						
+		<p> Como conehceu o site: <br> <!-- CHECKED = a opção já será marcada automaticamente -->
+		<input type="checkbox" name="interesse" value="google"> Google
+		<input type="checkbox" name="interesse" value="internet"> Internet
+		<input type="checkbox" name="interesse" value="amigo"> Amigo
+		<input type="checkbox" name="interesse" value="comercial"> Comercial
+		<input type="checkbox" name="interesse" value="outro"> Outro
+		</p>
+						
+						<p><b> O QUE VOCÊ ACHOU DO NOSSO SITE:</b>
+							<select name="opniao"> <!--  SELECTED = a opção já será marcada automaticamente-->
+								<option> ------------------------ </option>
+								<option value="10"> Site Completo </option>
+								<option value="100"> Adorei </option>
+								<option value="1000"> Perfeito </option>
+								<option value="10000"> Amazing  </option>
+								<option value="100000"> Site F#%*&! </option>
+								<option value="1000000"> Melhor de TodoS </option>
+							<select>
+						</p>
+						
+						Senha: <input type="password" name="senha"><br><br>
+						
+						<p>OPINIÃO: <br>
+						<textarea name="mensagem" rows="10" cols="50"> </textarea>
+						</p>
+						
+						<!-- O value nesse caso será o nome do botão.  -->
+						<input type="submit" value="Enviar">
+						<input type="reset" value="Limpar">
+			
+			
+			
+</form>	
+	
+		
+
+	
+	<footer id="rodape">
+	<p>&copy Copyright  2015 - by Flavio Menezes </br>
+	<a href= "https://www.facebook.com/flavio.s.menezes" target="_blank"> facebook </a> | 
+	<a href= "https://br.linkedin.com/pub/flávio-menezes/93/613/a37" target="_blank"> linkedin </a>
+	</p>
+	</footer>
+</div>
+</body>
+</html>
