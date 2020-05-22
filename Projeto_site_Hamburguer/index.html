@@ -17,25 +17,27 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <a class="navbar-brand fonte-titulo texto-cor-especial" id="cor-titulo" href="#">Hambúrguer do Flávio</a>
+            <a class="navbar-brand fonte-titulo texto-cor-especial" id="cor-titulo" href="#top">Hambúrguer do Flávio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <ul class="navbar-nav">
-                    <li><a class="nav-item nav-link active" href="#">início <span class="sr-only">(current)</span></a>
+                <ul class="navbar-nav menu">
+                    <li><a class="nav-item nav-link active" href="#top">início <span class="sr-only">(current)</span></a>
                     </li>
-                    <li><a class="nav-item nav-link" href="#cardapio">receitas</a></li>
+                    <li><a class="nav-item nav-link" href="#cardapio">cardápio</a></li>
                     <li><a class="nav-item nav-link" href="#quem-somos">quem somos</a></li>
                     <li><a class="nav-item nav-link" data-toggle="modal" data-target="#modal-contato"
-                            href="#">contato</a></li>
+                            href="">contato</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
+
+        <span id="top"></span>
 
         <section class="carrosel">
             <div id="carouselExampleCaptions" class="carousel slide" data-interval="3000" data-ride="carousel">
@@ -240,7 +242,7 @@
         </div>
     </div>
 
-
+    <script src="assets/js/aplicacao.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
